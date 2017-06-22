@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<remove-node path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']/method[@name='checkNotEmpty' and count(parameter)=1 and parameter[1][@type='T']]" />
+	<add-node path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="checkNotEmpty" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="p0" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+	<attr path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobCat']/method[@name='getTag' and count(parameter)=0]" name="visibility">protected</attr>
+
+	<remove-node path="/api/package[@name='com.evernote.android.job.v14']/class[@name='PlatformAlarmService.1']" />
+</metadata>

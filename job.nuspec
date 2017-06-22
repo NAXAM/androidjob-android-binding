@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.AndroidJob.Droid</id>
+        <version>1.0.13-pre1</version>
+        <description>Xamarin Binding Library - AndroidJob</description>
+        <authors>Do Thanh Binh</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - AndroidJob</title>
+        <releaseNotes>AndroidJob v1.0.13</releaseNotes>
+        <summary>Xamarin Binding Library - AndroidJob</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/androidjob-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, androidjob, android-job</tags>
+        <dependencies>
+            <dependency id="Naxam.Cat.Droid" version="1.0.4-pre1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.AndroidJob.Droid/bin/Release/Naxam.AndroidJob.Droid.dll" target="lib/MonoAndroid10/Naxam.AndroidJob.Droid.dll" />
+    </files>
+</package>
